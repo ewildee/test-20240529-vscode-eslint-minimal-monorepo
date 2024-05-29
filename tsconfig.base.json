@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "lib": ["ESNext", "WebWorker"],
+    "target": "esnext",
+
+    "moduleResolution": "NodeNext",
+    "resolvePackageJsonExports": true,
+    "resolvePackageJsonImports": true,
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": false,
+    "resolveJsonModule": true,
+
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "composite": true,
+
+    "allowJs": true,
+    "checkJs": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+    "noEmit": true,
+    "emitDeclarationOnly": false,
+    "noEmitOnError": false,
+    "incremental": true,
+    "newLine": "lf",
+
+    "sourceMap": true,
+    "removeComments": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+
+    "declaration": true,
+    "declarationMap": true,
+    "stripInternal": true,
+
+    "noErrorTruncation": true,
+    "pretty": true,
+
+    "strict": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": false,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "strictPropertyInitialization": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noUnusedParameters": false,
+    "exactOptionalPropertyTypes": true,
+    "noUnusedLocals": false,
+    "preserveConstEnums": true
+  },
+
+  "include": [],
+  "exclude": ["**/node_modules/**", "**/build/**", "**/dist/**"]
+}

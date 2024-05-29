@@ -1,0 +1,8 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+
+  "eslint.onIgnoredFiles": "warn"
+  // "eslint.debug": true,
+  // "eslint.trace.server": "verbose"
+}
