@@ -21,3 +21,9 @@ The ESLint extension stops linting newly opened files once it has been restarted
 
 ### Notes
 - After a manual restart, when modifying and saving `eslint.config.js`, all opened files are checked. However, this only works for already opened files.
+
+## Environment
+- VSCode: 1.89.1
+- ESLint extension: v3.0.7
+- Node: 22.2.0
+- ESLint: 9.3.0
