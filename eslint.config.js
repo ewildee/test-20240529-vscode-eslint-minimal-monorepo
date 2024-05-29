@@ -45,7 +45,9 @@ export default tseslint.config(
         ],
       },
     },
-    rules: {},
+    rules: {
+      '@typescript-eslint/no-unused-vars': 'error',
+    },
   },
   {
     // disable type-aware linting on JS files
