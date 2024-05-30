@@ -39,6 +39,10 @@ importers:
         specifier: ^7.10.0
         version: 7.11.0(eslint@9.3.0)(typescript@5.5.0-beta)
 
+  packages/pkg-a: {}
+
+  packages/pkg-b: {}
+
 packages:
 
   '@eslint-community/eslint-utils@4.4.0':
