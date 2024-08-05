@@ -3,6 +3,7 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
 
   "eslint.onIgnoredFiles": "warn",
+  "eslint.runtime": "node"
   // "eslint.debug": true,
-  "eslint.trace.server": "messages"
+  // "eslint.trace.server": "messages"
 }

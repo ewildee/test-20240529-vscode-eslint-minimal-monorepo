@@ -34,15 +34,15 @@ export default tseslint.config(
     },
   },
   {
-    extends: [...tseslint.configs.strictTypeChecked],
+    extends: [
+      ...tseslint.configs.strictTypeChecked,
+      ...tseslint.configs.stylisticTypeChecked,
+    ],
     name: 'typescript',
     languageOptions: {
       parserOptions: {
-        project: [
-          'packages/pkg-a/tsconfig.json',
-          'packages/pkg-b/tsconfig.json',
-          'tsconfig.json',
-        ],
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
     rules: {
