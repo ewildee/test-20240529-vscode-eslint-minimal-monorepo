@@ -1,3 +1,1 @@
-export {};
-
-const unusedVariable1 = true;
+export const unusedVariable1 = true;
